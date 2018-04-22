@@ -5,6 +5,8 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 ::-moz-selection {
@@ -59,6 +61,9 @@ textarea {
 body {
     font: 16px/26px 'Philosopher', sans-serif;
     background: #FCFBE3;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
 }
 
 .wrapper {
@@ -204,8 +209,8 @@ body {
 @media only screen and (min-width: 480px) {
 
     html {
-        margin-left: calc(100vw - 100%);
-        margin-right: 0;
+        margin: 0;
+        padding: 0;
     }
 
     .list-2{
@@ -213,7 +218,7 @@ body {
     }
 
     .wrapper {
-        width: 98vw;
+        width: 100vw;
         overflow: hidden;
     }
 
@@ -1037,7 +1042,7 @@ body {
     }
 
     .wrapper {
-        width: 98vw;
+        width: 100vw;
         overflow: hidden;
     }
 
@@ -2528,6 +2533,7 @@ body {
         display: inline-block;
         text-decoration: none;
         margin-top: 40px;
+        margin-left: 3%;
         color: #fff;
         padding: 20px;
         background: #CDBB99;
@@ -3011,8 +3017,8 @@ body {
     }
 
     .left-img{
-        width:75%;
-        float: right;
+        width:90%;
+        /*float: right;*/
         margin: 20px auto;
     }
 
@@ -3041,54 +3047,52 @@ body {
 
     .right-text span{
         display: block;
-        width: 100%;
-        margin:10px 0;
+        width: 70%;
+        margin:10px auto;
         color:#7f7f7f;
         text-align: center;
         font-size: 20px;
     }
 
     .right-img{
-        width:75%;
-        float: right;
+        width:90%;
+        /*float: right;*/
         margin: 20px auto;
     }
 
     .right-img img{
         display: inline-block;
         float:right;
-        max-width:47%;
-        margin:10px;
+        max-width:50%;
+        /*margin:10px;*/
     }
 
-    .right-text{
+    .left-text{
         display: inline-block;
         float:left;
-        max-width:50%;
+        width:50%;
         font-size: 20px;
         vertical-align: middle;
+        /*background-color: #efefef;*/
     }
-    .right-text a{
+    .left-text a{
         text-decoration: none;
         color: #68432d;
     }
 
-    .right-text a:hover{
+    .left-text a:hover{
         text-decoration: underline;
         color: #68432d;
     }
 
-    .right-text span{
+    .left-text span{
         display: block;
-        width: 100%;
-        margin:10px 0;
+        width: 70%;
+        margin:10px auto;
         color:#7f7f7f;
         text-align: center;
         font-size: 20px;
     }
-
-
-
 }
 
 /* ==========================================================================
