@@ -3007,11 +3007,11 @@ body {
         padding: 5px 0 0 20px;;
     }
 
-    .letter {
+    .letter h4 {
         max-width:65%;
         float: right;
         font-size:24px;
-        text-align: center;
+        text-align: left;
         line-height:140%;
         color: #68432d;
     }
